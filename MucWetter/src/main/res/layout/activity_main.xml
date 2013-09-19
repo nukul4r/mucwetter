@@ -28,26 +28,32 @@
                     android:id="@+id/btnT850Nds"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:tag="http://www.wetterzentrale.de/pics/MT8_Muenchen_ens.png"
+                    android:tag="i:http://www.wetterzentrale.de/pics/MT8_Muenchen_ens.png"
                     android:text="t850 + Nds"/>
             <Button
                     android:id="@+id/btnWrf"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:tag="http://www.wetterzentrale.de/pics/MS_116481_wrf.png"
+                    android:tag="i:http://www.wetterzentrale.de/pics/MS_116481_wrf.png"
                     android:text="WRF"/>
             <Button
                     android:id="@+id/btnMm"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:tag="http://wetterstationen.meteomedia.de/messnetz/vorhersagegrafik/098620.png"
+                    android:tag="i:http://wetterstationen.meteomedia.de/messnetz/vorhersagegrafik/098620.png"
                     android:text="MeteoMedia"/>
             <Button
                     android:id="@+id/btnNsr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:tag="http://www.niederschlagsradar.de/image.ashx?type=regioloop&amp;regio=mun"
+                    android:tag="i:http://www.niederschlagsradar.de/image.ashx?type=regioloop&amp;regio=mun"
                     android:text="Niederschlagsradar"/>
+            <Button
+                android:id="@+id/btnHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="h:file:///android_asset/index.html"
+                android:text="Home"/>
 
         </LinearLayout>
     </HorizontalScrollView>
